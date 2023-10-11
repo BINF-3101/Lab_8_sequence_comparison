@@ -43,15 +43,17 @@ This lab has **two parts**.
 
 [LQ 6](#lq-6)
 
-
+&ensp;
 # PART 1
 &ensp;
 ## Step 1 - Setup your lab 7 folder
 
 As usual, you will need to set up your new folder for lab 7. 
 Make a directory called "lab_7"
+
 &ensp;
 &ensp;
+
 ## Step 2 - Copy the pgm1 sequences into your lab 7 folder
 
 The sequences for lab are in a file called "all_pgm1.fasta".
@@ -74,6 +76,7 @@ Muscle is already installed on the cluster. To load it you can use
 module load muscle
 ```
 &ensp;
+
 ### Step 3b - Align the whole class's PGM1 sequences
 
 You will use MUSCLE to align the sequences in the file ```all_pgm1.fasta``` and save it to a new file called ```all_pgm1.align.fasta```
@@ -87,8 +90,10 @@ muscle --help
 ```
 
 Once you generate the protein alignment, you can take a look at it using the ```cat``` command 
+
 &ensp;
 &ensp;
+
 ## Step 4 - Create a consensus sequence
 
 A consensus sequence looks at the alignment and reports the most common amino acid (or base pair) at that position. 
