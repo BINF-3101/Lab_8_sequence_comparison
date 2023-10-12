@@ -64,7 +64,7 @@ You will also need to copy in your PGM1 file from lab_6.
 
 At this point, you should have the following files in your lab_7 folder:
 - all_pgm1.fasta
-- SRR00000.fasta
+- SRR00000.pgm1.fasta
 
 &ensp;
 
