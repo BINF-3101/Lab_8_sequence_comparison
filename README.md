@@ -211,7 +211,7 @@ In this part, you will identify your metabolic gene.
 
 **_Note_** If you picked sucrose last week I had to change your gene because I couldn't find the sucrose metabolic gene in every genome! Might be worth looking into in my research.
 
-Head to the google doc here to find which **gene** you will be analyzing. Link:
+Head to the google doc here to find which **gene** you will be analyzing. Link: https://docs.google.com/spreadsheets/d/1smi0H0h7qz-APVstP750x553q-NDQG7KeRtBs8uF-Fg/edit?usp=sharing 
 
 &ensp;
 &ensp;
