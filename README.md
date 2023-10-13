@@ -295,7 +295,7 @@ We are going to use two options:
 
 Our hmm file <hmmfile> is the one you created above in the format ```gene.hmm```
 
-The <seqdb> is just our SRR00000.prot.fasta file. 
+The "seqdb " is just our SRR00000.prot.fasta file. 
 
 Put all those pieces together and run the command! 
 
