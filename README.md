@@ -51,6 +51,8 @@ This lab has **two parts**.
 
 [LQ 9](#lq-9)
 
+[LQ 10](#lq-10)
+
 &ensp;
 # PART 1
 &ensp;
@@ -337,12 +339,15 @@ What sequence (or sequences) have the most significant E-value? There may be mor
 Use the SGD https://www.yeastgenome.org/ to look up the gene you chose to analyze (not rad53). Once you find the gene on the database answer the questions below
 
 # LQ 7
+What gene did you choose to study?
+
+# LQ 8
 In the Gene Ontology section, what Biological Process is your gene involved in? 
 
-# LQ 8 
+# LQ 9 
 In the Protein section, what is one domain found within your protein?
 
-# LQ 9
+# LQ 10
 In the Homology section, what is one other Species that has a homolog of this gene?
 
 
