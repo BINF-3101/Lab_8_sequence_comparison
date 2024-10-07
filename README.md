@@ -324,6 +324,21 @@ What sequence (or sequences) have the most significant E-value? There may be mor
 
 
 
+## Step 5 - Learn about your gene
+
+Use the SGD to look up the gene you chose to analyze (not rad53). Once you find the gene on the database answer the questions below
+
+# LQ 7
+In the Gene Ontology section, what Biological Process is your gene involved in? 
+
+# LQ 8 
+In the Protein section, what is one domain found within your protein?
+
+# LQ 9
+In the Homology section, what is one other Species that has a homolog of this gene?
+
+
+
 
 
 
