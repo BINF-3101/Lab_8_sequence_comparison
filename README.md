@@ -64,7 +64,7 @@ You will also need to copy in your rad53 file from lab_6.
 
 At this point, you should have the following files in your lab_8 folder:
 - all_rad53.fasta
-- SRR00000.rad53.fasta
+- SRRXXXXX.rad53.fasta
 
 &ensp;
 
@@ -233,7 +233,7 @@ cp /projects/class/binf3101_001/lab_8_ref_seqs/yourprot.fasta .
 You will also need to copy over your protein annotations from last lab. So if you are still in the lab 7 folder you can use the following command
 
 ```bash
-cp ../lab_6/SRR00000.prot.fasta .
+cp ../lab_6/SRRXXXXX.prot.fasta .
 ```
 
 Now you should also have those two files in your directory.
@@ -299,7 +299,7 @@ We are going to use two options:
 
 Our hmm file <hmmfile> is the one you created above in the format ```gene.hmm```
 
-The "seqdb " is just our SRR00000.prot.fasta file. 
+The "seqdb " is just our SRRXXXXX.prot.fasta file. 
 
 Put all those pieces together and run the command! 
 
