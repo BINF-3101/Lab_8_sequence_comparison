@@ -325,16 +325,16 @@ Open up your hmmer output file and answer the questions below
 How many complete sequences passed the E-value cutoff?
 
 &ensp;
-&ensp;
 
 # LQ 6 
 What sequence (or sequences) have the most significant E-value? There may be more than one if there is a tie. 
 
-
+&ensp;
+&ensp;
 
 ## Step 6 - Learn about your gene
 
-Use the SGD to look up the gene you chose to analyze (not rad53). Once you find the gene on the database answer the questions below
+Use the SGD https://www.yeastgenome.org/ to look up the gene you chose to analyze (not rad53). Once you find the gene on the database answer the questions below
 
 # LQ 7
 In the Gene Ontology section, what Biological Process is your gene involved in? 
