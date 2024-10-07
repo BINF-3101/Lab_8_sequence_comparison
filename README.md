@@ -49,7 +49,7 @@ This lab has **two parts**.
 ## Step 1 - Setup your lab 7 folder
 
 As usual, you will need to set up your new folder for lab 7. 
-Make a directory called "lab_7"
+Make a directory called "lab_8"
 
 &ensp;
 &ensp;
@@ -62,7 +62,7 @@ Move into your lab 7 folder and copy ```/projects/class/binf3101_001/all_pgm1.fa
 
 You will also need to copy in your PGM1 file from lab_6. 
 
-At this point, you should have the following files in your lab_7 folder:
+At this point, you should have the following files in your lab_8 folder:
 - all_pgm1.fasta
 - SRR00000.pgm1.fasta
 
@@ -220,10 +220,10 @@ Head to the google doc here to find which **gene** you will be analyzing. Link: 
 
 I have found reference sequences (aka known sequences) for each of the genes. They are in files called ```gene.fasta``` in the shared class space. 
 
-Now you will need to copy that file into your current lab_7 directory
+Now you will need to copy that file into your current lab_8 directory
 
 ```bash
-cp /projects/class/binf3101_001/lab_7_ref_seqs/yourprot.fasta .
+cp /projects/class/binf3101_001/lab_8_ref_seqs/yourprot.fasta .
 ```
 
 You will also need to copy over your protein annotations from last lab. So if you are still in the lab 7 folder you can use the following command
