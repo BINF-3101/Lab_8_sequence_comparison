@@ -11,9 +11,9 @@ This lab has **two parts**.
 
 [Step 1 - Setup Folders](#step-1---setup-your-lab-7-folder)
 
-[Step 2 - Copy files](#step-2---copy-the-pgm1-sequences-into-your-lab-7-folder)
+[Step 2 - Copy files](#step-2---copy-the-rad53-sequences-into-your-lab-7-folder)
 
-[Step 3 - Align Sequences](#step-3---align-the-pgm1-sequences-using-muscle)
+[Step 3 - Align Sequences](#step-3---align-the-rad53-sequences-using-muscle)
 
 [Step 4 - Consensus Sequence](#step-4---create-a-consensus-sequence)
 
@@ -54,21 +54,21 @@ Make a directory called "lab_8"
 &ensp;
 &ensp;
 
-## Step 2 - Copy the pgm1 sequences into your lab 7 folder
+## Step 2 - Copy the rad53 sequences into your lab 7 folder
 
-The sequences for lab are in a file called "all_pgm1.fasta".
+The sequences for lab are in a file called "all_rad53.fasta".
 
-Move into your lab 7 folder and copy ```/projects/class/binf3101_001/all_pgm1.fasta``` into your lab 7 folder
+Move into your lab 7 folder and copy ```/projects/class/binf3101_001/all_rad53.fasta``` into your lab 7 folder
 
-You will also need to copy in your PGM1 file from lab_6. 
+You will also need to copy in your rad53 file from lab_6. 
 
 At this point, you should have the following files in your lab_8 folder:
-- all_pgm1.fasta
-- SRR00000.pgm1.fasta
+- all_rad53.fasta
+- SRR00000.rad53.fasta
 
 &ensp;
 
-## Step 3 - Align the pgm1 sequences using MUSCLE
+## Step 3 - Align the rad53 sequences using MUSCLE
 &ensp;
 ### Step 3a - load MUSCLE 
 Muscle is already installed on the cluster. To load it you can use
@@ -78,9 +78,9 @@ module load muscle
 ```
 &ensp;
 
-### Step 3b - Align the whole class's PGM1 sequences
+### Step 3b - Align the whole class's rad53 sequences
 
-You will use MUSCLE to align the sequences in the file ```all_pgm1.fasta``` and save it to a new file called ```all_pgm1.align.fasta```
+You will use MUSCLE to align the sequences in the file ```all_rad53.fasta``` and save it to a new file called ```all_rad53.align.fasta```
 
 To learn how to use MUSCLE you can use the help documentation. There are two mandatory things you need to include, and they are found under the **Basic usage** section of the help documentation. 
 
@@ -125,7 +125,7 @@ To load emboss we will use
 
 ### Step 4b - Generate consensus Sequence
 
-To generate the consensus sequence for all the PGM1 files (all_pgm1.align.fasta) we want to use the format 
+To generate the consensus sequence for all the rad53 files (all_rad53.align.fasta) we want to use the format 
 
 ```cons inputfile outputfile```
 
@@ -187,7 +187,7 @@ How many positions in the sequence alignment had high conservation for Threonine
 
 ## Step 5 - Compare your sequence to the consensus
 
-To compare your PGM1 sequence (generated in lab 6) to the consensus sequence, we are going to use **blastp**
+To compare your rad53 sequence (generated in lab 6) to the consensus sequence, we are going to use **blastp**
 
 In this case, each file is on 1 sequence - so it doesn't matter which file we put as the query and which we put as the sequence. 
 
@@ -197,7 +197,7 @@ Save the blastp output to a new file so you can look at it and answer the questi
 &ensp;
 
 # LQ 4 
-Report the following statistic for your PGM1 vs the consensus
+Report the following statistic for your rad53 vs the consensus
 1. Score (bits)
 2. E-value
 3. Percent Identities
