@@ -211,11 +211,11 @@ Report the following statistic for your rad53 vs the consensus
 &ensp;
 
 # PART 2
-In this part, you will identify your metabolic gene. 
+In this part, you will identify a metabolic gene of your choosing. 
 
-**_Note_** If you picked sucrose last week I had to change your gene because I couldn't find the sucrose metabolic gene in every genome! Might be worth looking into in my research.
+Head to this link to see which genes are available to you https://docs.google.com/spreadsheets/d/1Ku1xStej_DAnVDvz2bLT3plVjDAlw0-b0WGsSyOqg9I/edit?usp=sharing
 
-Head to the google doc here to find which **gene** you will be analyzing. Link: https://docs.google.com/spreadsheets/d/1smi0H0h7qz-APVstP750x553q-NDQG7KeRtBs8uF-Fg/edit?usp=sharing 
+You can choose any gene with YES in the column.
 
 &ensp;
 &ensp;
@@ -230,7 +230,7 @@ Now you will need to copy that file into your current lab_8 directory
 cp /projects/class/binf3101_001/lab_8_ref_seqs/yourprot.fasta .
 ```
 
-You will also need to copy over your protein annotations from last lab. So if you are still in the lab 7 folder you can use the following command
+You will also need to copy over your protein annotations from last lab. So if you are still in the lab 7 folder you can use the following command.
 
 ```bash
 cp ../lab_6/SRRXXXXX.prot.fasta .
@@ -251,7 +251,7 @@ Instead of using blast, this time we are going to use **hmmer**. The major steps
 
 ## Step 2 - Align your reference sequences
 
-We are going to use a different alignment software, MAFFT, so you can practice. 
+We are going to use MAFFT again to align the sequences
 
 Mafft has an even easier command-line application 
 
