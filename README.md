@@ -43,6 +43,14 @@ This lab has **two parts**.
 
 [LQ 6](#lq-6)
 
+[Step 6 - Learn about your gene](#step-6---Learn-about-your-gene)
+
+[LQ 7](#lq-7)
+
+[LQ 8](#lq-8)
+
+[LQ 9](#lq-9)
+
 &ensp;
 # PART 1
 &ensp;
@@ -324,7 +332,7 @@ What sequence (or sequences) have the most significant E-value? There may be mor
 
 
 
-## Step 5 - Learn about your gene
+## Step 6 - Learn about your gene
 
 Use the SGD to look up the gene you chose to analyze (not rad53). Once you find the gene on the database answer the questions below
 
