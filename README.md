@@ -70,25 +70,27 @@ At this point, you should have the following files in your lab_8 folder:
 
 ## Step 3 - Align the rad53 sequences using MUSCLE
 &ensp;
-### Step 3a - load MUSCLE 
+### Step 3a - load MAFFT 
 Muscle is already installed on the cluster. To load it you can use
 
 ```bash
-module load muscle
+module load mafft
 ```
 &ensp;
 
 ### Step 3b - Align the whole class's rad53 sequences
 
-You will use MUSCLE to align the sequences in the file ```all_rad53.fasta``` and save it to a new file called ```all_rad53.align.fasta```
+You will use MAFFT to align the sequences in the file ```all_rad53.fasta``` and save it to a new file called ```all_rad53.align.fasta```
 
-To learn how to use MUSCLE you can use the help documentation. There are two mandatory things you need to include, and they are found under the **Basic usage** section of the help documentation. 
+To learn how to use MAFFT you can use the help documentation. 
 
-To access the help documentation for MUSCLE type
+To access the help documentation for MAFFT type
 
 ```bash
 muscle --help
 ```
+
+Use the information in the help documentation to run mafft to align the sequences and save them in a new file called ```all_rad53.align.fasta```. 
 
 Once you generate the protein alignment, you can take a look at it using the ```cat``` command 
 
@@ -137,7 +139,7 @@ Fill in the input and output files to generate the consensus sequence.
 
 Take a look at the consensus sequence we generated and answer the questions below. 
 
-Note - Some of the letters are upper-case and some are lower-case.
+Note - Some of the letters may be upper-case and some may be lower-case.
 
 UPPERCASE letters = **high conservation** wherease 
 lowercase letters = **low conservation**
@@ -188,6 +190,8 @@ How many positions in the sequence alignment had high conservation for Threonine
 ## Step 5 - Compare your sequence to the consensus
 
 To compare your rad53 sequence (generated in lab 6) to the consensus sequence, we are going to use **blastp**
+
+To load blast use ```module load blast/2.11.0+```
 
 In this case, each file is on 1 sequence - so it doesn't matter which file we put as the query and which we put as the sequence. 
 
