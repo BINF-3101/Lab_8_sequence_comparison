@@ -133,7 +133,7 @@ To generate our consensus sequence, we are going to use the EMBOSS program **con
 
 To load emboss we will use
 
-```ml emboss``
+```ml emboss```
 
 ### Step 4b - Generate consensus Sequence
 
