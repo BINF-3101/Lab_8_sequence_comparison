@@ -76,6 +76,8 @@ At this point, you should have the following files in your lab_8 folder:
 - all_rad53.fasta
 - SRRXXXXX.rad53.fasta
 
+**Check your SRRXXXX.rad53.fasta file** if it is empty, you will need to go back to lab #6 and extract it. Ask for help if you need it. 
+
 &ensp;
 
 ## Step 3 - Align the rad53 sequences using MUSCLE
