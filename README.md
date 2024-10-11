@@ -97,7 +97,7 @@ To learn how to use MAFFT you can use the help documentation.
 To access the help documentation for MAFFT type
 
 ```bash
-muscle --help
+mafft --help
 ```
 
 Use the information in the help documentation to run mafft to align the sequences and save them in a new file called ```all_rad53.align.fasta```. 
