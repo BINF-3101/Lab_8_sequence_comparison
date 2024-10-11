@@ -166,7 +166,7 @@ How many positions in the sequence alignment did not have a consensus amino acid
 
 # LQ 2
 
-How many positions in the sequence alignment had low conservation for Threonine?
+How many positions in the sequence alignment had low conservation for Lysine (which is abbreviated K)?
 
 **_TIP_** In this case when we use grep we **do not use the -c command**. This is because it only counts **lines**.
 If we want to match just one character (for example, z) we would use grep with the ```-o``` option. For example, the command would be
@@ -192,7 +192,7 @@ grep -o "z" file.txt | wc -l
 
 # LQ 3
 
-How many positions in the sequence alignment had high conservation for Threonine?
+How many positions in the sequence alignment had high conservation for Lysine (which is abbreviated K)?
 
 &ensp;
 &ensp;
